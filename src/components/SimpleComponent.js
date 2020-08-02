@@ -9,7 +9,7 @@ export default class SimpleComponent extends Component {
     };
   }
 
-  handleClick = (e) => {
+  handleClick = () => {
     if (this.state.mood === "happy") {
       this.setState({ mood: "sad" });
     } else {
